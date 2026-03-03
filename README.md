@@ -14,6 +14,8 @@ In the rapidly evolving FinTech landscape, accurately predicting borrower behavi
 
 Rather than relying on outdated table-based underwriting, this application dynamically processes continuous and categorical variables on the fly, offering institutional-grade Risk Assessment directly through an interactive dashboard.
 
+![AI Risk Engine Core Dashboard Overview](Dashboard.png)
+
 ## 🗄️ Dataset Description
 
 The underlying intelligence was trained on a comprehensive historical financial dataset, rigorously cleaned to isolate true risk signals prior to the One-Hot categorical vectorization.
