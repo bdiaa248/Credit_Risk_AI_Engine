@@ -59,6 +59,6 @@ By replacing slow manual reviews with instantaneous ML inferences:
 ---
 <p align="center">
 Built by <b>Diaa Shousha | GeoAi Engineer</b> <br>
-<i>SECURE NODE • AES-256 ENCRYPTED IN-MEMORY ENGINE</i>
 </p>
+
 
