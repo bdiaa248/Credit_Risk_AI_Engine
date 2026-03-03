@@ -40,7 +40,7 @@ The data engineering pipeline isolates predictive power from discriminatory sign
 
 ### Feature Explainability (SHAP & Importance)
 *Insert your feature importance explainability plot here to demonstrate model transparency to stakeholders.*
-![Feature Importance](architecture.png)
+![Feature Importance](explainability.png)
 
 ## 🏗️ System Architecture
 
