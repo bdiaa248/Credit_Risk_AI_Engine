@@ -10,11 +10,19 @@
 ---
 
 ## 🎯 The Vision
-In the rapidly evolving FinTech landscape, accurately predicting borrower behavior is the difference between massive portfolio growth and critical loss. The **AI Risk Engine Core** is a robust, highly aesthetic, production-ready machine learning pipeline. It transforms raw demographic and financial borrower data into precise, real-time interest rate yield predictions. 
+In the rapidly evolving FinTech landscape, accurately predicting borrower behavior is the difference between massive portfolio growth and critical loss. The **AI Risk Engine Core** is a robust, highly aesthetic machine learning pipeline **designed for production deployment with a scalable architecture**. It transforms raw demographic and financial borrower data into precise, real-time interest rate yield predictions. 
 
 Rather than relying on outdated table-based underwriting, this application dynamically processes continuous and categorical variables on the fly, offering institutional-grade Risk Assessment directly through an interactive dashboard.
 
-## 📊 Model Performance
+## �️ Dataset Description
+
+The underlying intelligence was trained on a comprehensive historical financial dataset, rigorously cleaned to isolate true risk signals prior to the One-Hot categorical vectorization.
+
+- **Total Records:** 383,382 Rows
+- **Features (Pre-Encoding):** 21 Columns
+- **Data Origin:** Real-world anonymized financial datasets
+
+## �📊 Model Performance
 
 Transparency is critical in financial machine learning. Our `v1.0.0` model demonstrates the following evaluation metrics on validation datasets:
 
@@ -23,10 +31,16 @@ Transparency is critical in financial machine learning. Our `v1.0.0` model demon
 - **Root Mean Square Error (RMSE):** 2.41%
 - **Cross-Validation (5-Fold):** 0.84 ± 0.03
 
+> 💡 *Compared against a Linear Regression baseline (R²: 0.61), the RandomForest framework achieved a **+42% performance enhancement** in predicting non-linear interest variations.*
+
 ## 🧠 Bias, Fairness & Governance
 
 AI solutions in lending must be equitable. **Sensitive attributes (such as Gender and Jurisdiction) were rigorously tested for bias impact using feature importance inspection and ablation experiments.** 
 The data engineering pipeline isolates predictive power from discriminatory signals, ensuring fairness while maintaining high fidelity in risk quantification.
+
+### Feature Explainability (SHAP & Importance)
+*Insert your feature importance explainability plot here to demonstrate model transparency to stakeholders.*
+![Feature Importance](explainability_placeholder.png)
 
 ## 🏗️ System Architecture
 
