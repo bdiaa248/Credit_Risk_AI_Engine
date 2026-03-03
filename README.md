@@ -1,4 +1,4 @@
-# ⚡ AI Risk Engine Core
+# AI Risk Engine Core
 
 ### Next-Generation Algorithm for Real-Time Loan Pricing & Risk Assessment
 
@@ -11,14 +11,14 @@
 
 ---
 
-## 🎯 The Vision
+## The Vision
 In the rapidly evolving FinTech landscape, accurately predicting borrower behavior is the difference between massive portfolio growth and critical loss. The **AI Risk Engine Core** is a robust, highly aesthetic machine learning pipeline **designed for production deployment with a scalable architecture**. It transforms raw demographic and financial borrower data into precise, real-time interest rate yield predictions. 
 
 Rather than relying on outdated table-based underwriting, this application dynamically processes continuous and categorical variables on the fly, offering institutional-grade Risk Assessment directly through an interactive dashboard.
 
 ![AI Risk Engine Core Dashboard Overview](Dashboard.png)
 
-## 🗄️ Dataset Description
+## Dataset Description
 
 The underlying intelligence was trained on a comprehensive historical financial dataset, rigorously cleaned to isolate true risk signals prior to the One-Hot categorical vectorization.
 
@@ -26,7 +26,7 @@ The underlying intelligence was trained on a comprehensive historical financial 
 - **Features (Pre-Encoding):** 21 Columns
 - **Data Origin:** Real-world anonymized financial datasets
 
-## 📊 Model Performance
+## Model Performance
 
 Transparency is critical in financial machine learning. Our `v1.0.0` model demonstrates the following evaluation metrics on validation datasets:
 
@@ -35,9 +35,9 @@ Transparency is critical in financial machine learning. Our `v1.0.0` model demon
 - **Root Mean Square Error (RMSE):** 2.41%
 - **Cross-Validation (5-Fold):** 0.84 ± 0.03
 
-> 💡 *Compared against a Linear Regression baseline (R²: 0.61), the RandomForest framework achieved a **+42% performance enhancement** in predicting non-linear interest variations.*
+> *Compared against a Linear Regression baseline (R²: 0.61), the RandomForest framework achieved a **+42% performance enhancement** in predicting non-linear interest variations.*
 
-## 🧠 Bias, Fairness & Governance
+##  Bias, Fairness & Governance
 
 AI solutions in lending must be equitable. **Sensitive attributes (such as Gender and Jurisdiction) were rigorously tested for bias impact using feature importance inspection and ablation experiments.** 
 The data engineering pipeline isolates predictive power from discriminatory signals, ensuring fairness while maintaining high fidelity in risk quantification.
@@ -46,16 +46,16 @@ The data engineering pipeline isolates predictive power from discriminatory sign
 *Insert your feature importance explainability plot here to demonstrate model transparency to stakeholders.*
 ![Feature Importance](explainability.png)
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ![Architecture](architecture.png)
 
-## 🚀 Key Features
+## Key Features
 - **Intelligent Risk Prediction:** Uses a powerful Pre-Trained `RandomForestRegressor` Model to calculate optimal annual yields.
 - **Dynamic Feature Pipeline:** Seamlessly translates 15 intuitive user inputs into a complex 51-column vectorized dataset containing strict one-hot encodings.
 - **Premium User Experience:** Built with Streamlit, the application features an immersive, dark-themed SaaS UI optimized for rapid analytics without vertical scrolling.
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 Credit_Risk_AI_Project/
@@ -75,19 +75,19 @@ Credit_Risk_AI_Project/
 └── README.md                         
 ```
 
-## 💻 Tech Stack & Metadata
+##  Tech Stack & Metadata
 - **Frontend Framework:** [Streamlit](https://streamlit.io/)
 - **Machine Learning Core:** `scikit-learn` (`RandomForestRegressor`), `joblib`
 - **Data Engineering:** `pandas`, `numpy`
 - **Model Version:** v1.0.0 (Trained on Dataset v2 | Last retrained: Jan 2026)
 
-## ⚙️ How it works
+##  How it works
 1. **Input:** The risk analyst configures the Borrower Intelligence Profile (Age, Income, Requested Capital, Current Employment Tenure, Internal Risk Ratings).
 2. **Preprocessing:** The app's backend maps the human-readable UI inputs to a precise 51-dimension binary & continuous matrix required by the ML model.
 3. **Inference:** A Secure Node loads the `RandomForestRegressor` and executes a decision tree ensemble search in memory.
 4. **Output:** The platform returns the `Predicted Annual Yield (%)` within milliseconds.
 
-## 🛠️ Local Installation & Run
+##  Local Installation & Run
 
 1. **Clone the repository:**
 ```bash
@@ -106,7 +106,7 @@ cd app
 streamlit run app.py
 ```
 
-## 📈 The Business Value
+##  The Business Value
 By replacing slow manual reviews with instantaneous ML inferences:
 - **Scalability:** Handle thousands of concurrent loan origination requests.
 - **Accuracy:** The logic heavily weighs core risk components (like internal rating and liability limits) automatically penalizing highly risky profiles while rewarding prime borrowers.
