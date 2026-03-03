@@ -14,7 +14,7 @@ In the rapidly evolving FinTech landscape, accurately predicting borrower behavi
 
 Rather than relying on outdated table-based underwriting, this application dynamically processes continuous and categorical variables on the fly, offering institutional-grade Risk Assessment directly through an interactive dashboard.
 
-## �️ Dataset Description
+## 🗄️ Dataset Description
 
 The underlying intelligence was trained on a comprehensive historical financial dataset, rigorously cleaned to isolate true risk signals prior to the One-Hot categorical vectorization.
 
@@ -22,7 +22,7 @@ The underlying intelligence was trained on a comprehensive historical financial 
 - **Features (Pre-Encoding):** 21 Columns
 - **Data Origin:** Real-world anonymized financial datasets
 
-## �📊 Model Performance
+## 📊 Model Performance
 
 Transparency is critical in financial machine learning. Our `v1.0.0` model demonstrates the following evaluation metrics on validation datasets:
 
@@ -40,7 +40,7 @@ The data engineering pipeline isolates predictive power from discriminatory sign
 
 ### Feature Explainability (SHAP & Importance)
 *Insert your feature importance explainability plot here to demonstrate model transparency to stakeholders.*
-![Feature Importance](explainability_placeholder.png)
+![Feature Importance](architecture.png)
 
 ## 🏗️ System Architecture
 
@@ -87,8 +87,8 @@ Credit_Risk_AI_Project/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/Credit_Risk_AI_Project.git
-cd Credit_Risk_AI_Project
+git clone https://github.com/bdiaa248/Credit_Risk_AI_Engine.git
+cd Credit_Risk_AI_Engine
 ```
 
 2. **Install requirements:**
